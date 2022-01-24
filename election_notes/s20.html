@@ -14679,74 +14679,25 @@ all of MD as it is not optimized for dense, information rich UIs.
 </style>
 
 <style type="text/css">
-/* Misc */
 a.anchor-link {
-  display: none;
+   display: none;
 }
-
 .highlight  {
-  margin: 0.4em;
+    margin: 0.4em;
 }
 
 /* Input area styling */
 .jp-InputArea {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .jp-InputArea-editor {
-  overflow: hidden;
-}
-
-/* Using table instead of flexbox so that we can use break-inside property */
-/* CSS rules under this comment should not be required anymore after we move to the JupyterLab 4.0 CSS */
-
-
-.jp-CodeCell.jp-mod-outputsScrolled .jp-OutputArea-prompt {
-  min-width: calc(
-    var(--jp-cell-prompt-width) - var(--jp-private-cell-scrolling-output-offset)
-  );
-}
-
-.jp-OutputArea-child {
-  display: table;
-  width: 100%;
-}
-
-.jp-OutputPrompt {
-  display: table-cell;
-  vertical-align: top;
-  min-width: var(--jp-cell-prompt-width);
-}
-
-body[data-format='mobile'] .jp-OutputPrompt {
-  display: table-row;
-}
-
-.jp-OutputArea-output {
-  display: table-cell;
-  width: 100%;
-}
-
-body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
-  display: table-row;
-}
-
-.jp-OutputArea-output.jp-OutputArea-executeResult {
-  width: 100%;
+    overflow: hidden;
 }
 
 @media print {
-  .jp-Collapser {
-    display: none;
-  }
-
-  .jp-Cell-inputWrapper,
-  .jp-Cell-outputWrapper {
-    display: block;
-  }
-
-  .jp-OutputArea-child {
-    break-inside: avoid-page;
+  body {
+    margin: 0;
   }
 }
 </style>
@@ -14797,8 +14748,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </a>
     <a class="binder ref-link-item" href="https://mybinder.org/v2/gh/Edgarware/blaseball_notebooks/main?filepath=election_notes/s20.ipynb" alt="Binder logo" title="Open in Binder"></a>
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Season-20-Election-Notes">Season 20 Election Notes<a class="anchor-link" href="#Season-20-Election-Notes"> </a></h1><blockquote><p><strong>FORBIDDEN KNOWLEDGE WARNING</strong></p>
 <p>This document contains some information that is not currently present on the main site and may be considered spoilers.
@@ -14806,14 +14756,11 @@ Continue at your own discretion. Some information in this document cannot be sha
 </blockquote>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -14837,29 +14784,23 @@ Continue at your own discretion. Some information in this document cannot be sha
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <h2 id="Decrees">Decrees<a class="anchor-link" href="#Decrees"> </a></h2><p>Decrees are chosen by majority votes across all teams. <code>1</code> decrees will pass this season.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Sun-3">Sun 3<a class="anchor-link" href="#Sun-3"> </a></h3><p><strong>Set Sun. If your Team sweeps all 3 games of a Regular Season series, the final non-loss is worth 2 Wins.</strong></p>
 <p>See below for the number of additional Wins this would have added. It is unknown how this interacts with the current
 Turntables/SunSun mess.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -14881,20 +14822,16 @@ Turntables/SunSun mess.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Sun-9">Sun 9<a class="anchor-link" href="#Sun-9"> </a></h3><p><strong>Set Sun. Non-losses on the Week End (every 9th Day) are worth 2 Wins.</strong></p>
 <p>See below for the number of additional Wins this would have added. It is unknown how this interacts with the current
 Turntables/SunSun mess.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -14916,20 +14853,16 @@ Turntables/SunSun mess.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Sun-30">Sun 30<a class="anchor-link" href="#Sun-30"> </a></h3><p><strong>Set Sun. When a game enters Extra Innings, both Teams will immediately earn 1 Win.</strong></p>
 <p>See below for the number of additional Wins this would have added. It is unknown how this interacts with the current
 Turntables/SunSun mess.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -14951,8 +14884,7 @@ Turntables/SunSun mess.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <h2 id="Wills">Wills<a class="anchor-link" href="#Wills"> </a></h2><p>Will are selected for each team by raffle. Each team will draw <code>2</code> random wills. The bottom 4 teams in the league by
@@ -14960,22 +14892,17 @@ standings will draw <code>3</code>. The chosen wills are random, but wills with 
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Equivalent-Exchange">Equivalent Exchange<a class="anchor-link" href="#Equivalent-Exchange"> </a></h3><p><strong>Swap a Player from a Team in the League with an Equivalent (within 2 Stars) Player on your Team.</strong></p>
 <p>See below for the 20 best swap candidates for a particular player, sorted by highest stats in the applicable position.</p>
 
-</div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -22316,8 +22243,6 @@ standings will draw <code>3</code>. The chosen wills are random, but wills with 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -24604,8 +24529,7 @@ standings will draw <code>3</code>. The chosen wills are random, but wills with 
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Swap">Swap<a class="anchor-link" href="#Swap"> </a></h3><p><strong>Swap two Players on your Team's Roster.</strong></p>
 <p>This allows switching the position of any two players, including from the shadows. See below for swapping various
@@ -24613,12 +24537,9 @@ players into different positions.
 <strong>Batting</strong></p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -24762,18 +24683,14 @@ players into different positions.
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Pitching</strong></p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -24917,8 +24834,7 @@ players into different positions.
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Move">Move<a class="anchor-link" href="#Move"> </a></h3><p><strong>Move a Player on your Team to the desired location on your Roster.</strong></p>
 <p>Move would move a player from any location on the team (including Shadows) to another position, increasing the number
@@ -24926,12 +24842,9 @@ of players in that position. See below for moving various players into different
 <p><strong>Batting</strong></p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -25142,18 +25055,14 @@ of players in that position. See below for moving various players into different
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Pitching</strong></p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -25364,8 +25273,7 @@ of players in that position. See below for moving various players into different
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Take">Take<a class="anchor-link" href="#Take"> </a></h3><p><strong>Take an Item, repair it, and move it to a Player on your Team.</strong></p>
 <p>This would steal an item from another team and give it to a chosen player on our team. The player receiving the item
@@ -25373,12 +25281,9 @@ will drop a random item if there are no open item slots. See below for a list of
 the league.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -27126,19 +27031,15 @@ the league.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Shadow-Infuse">Shadow Infuse<a class="anchor-link" href="#Shadow-Infuse"> </a></h3><p><strong>Boost a random Stat Category of a Player in your Shadows by 20% to 40%.</strong></p>
 <p>See below for how this would affect various team members at the 2 extreme percentages. This will only affect one player.</p>
 <h4 id="Batting">Batting<a class="anchor-link" href="#Batting"> </a></h4>
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -27950,8 +27851,6 @@ the league.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -28675,17 +28574,13 @@ the league.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="Pitching">Pitching<a class="anchor-link" href="#Pitching"> </a></h4>
-</div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -29328,8 +29223,6 @@ the league.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -29913,17 +29806,13 @@ the league.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="Baserunning">Baserunning<a class="anchor-link" href="#Baserunning"> </a></h4>
-</div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -30519,8 +30408,6 @@ the league.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -31057,17 +30944,13 @@ the league.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="Defense">Defense<a class="anchor-link" href="#Defense"> </a></h4>
-</div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -31684,8 +31567,6 @@ the league.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -32231,29 +32112,23 @@ the league.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Shadow-Revoke">Shadow Revoke<a class="anchor-link" href="#Shadow-Revoke"> </a></h3><p><strong>Revoke a Player from your Team's Shadows.</strong></p>
 <p>This would remove a player from our shadows by moving them to another team, without providing a replacement.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Reform">Reform<a class="anchor-link" href="#Reform"> </a></h3><p><strong>Re-roll an eligible Permanent Modification for a Player on your Team.</strong></p>
 <p>Below is a list of all players with modifications that could be rerolled. It would be better to reroll modifications
 with negative effects.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -32328,19 +32203,15 @@ with negative effects.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Magnify">Magnify<a class="anchor-link" href="#Magnify"> </a></h3><p><strong>Magnify a Player on your Team. Runs batted in or allowed by this Player are multiplied.</strong></p>
 <p>See below for amount of runs batted in/allowed for each player in the previous season. It is unknown what the mutliplier amount is.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -32421,8 +32292,6 @@ with negative effects.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -32481,8 +32350,7 @@ with negative effects.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <h2 id="Blessings">Blessings<a class="anchor-link" href="#Blessings"> </a></h2><p>Blessings are selected by raffle across all teams. Each blessing will be awarded to one random team, where teams with
@@ -32490,21 +32358,16 @@ more votes are more likely to be selected.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="TWO-FREAKIN-BATS">TWO FREAKIN BATS<a class="anchor-link" href="#TWO-FREAKIN-BATS"> </a></h3><p><strong>Two random Players in your Team's Lineup with an available Item slot (empty or broken) will open Handcrafted Aluminum Bat Crates.</strong></p>
 <p><a href="https://www.youtube.com/watch?v=btHpHjabRcc">Two of them</a>. Aluminum bats increase Ground Friction while reducing
 Musclitude and Buoyancy. See below for list of batters with an empty item slot.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -32563,19 +32426,15 @@ Musclitude and Buoyancy. See below for list of batters with an empty item slot.<
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Shadow-Capes-Supply-Run">Shadow Capes Supply Run<a class="anchor-link" href="#Shadow-Capes-Supply-Run"> </a></h3><p><strong>All Players in your Team's Shadows with an available Item slot will open a Generic Cape Crate.</strong></p>
 <p>Capes add Watchfulness, which is a defense stat. See below for list of shadow players with open item slots</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -32778,20 +32637,16 @@ Musclitude and Buoyancy. See below for list of batters with an empty item slot.<
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Shots-in-the-Dark">Shots in the Dark<a class="anchor-link" href="#Shots-in-the-Dark"> </a></h3><p><strong>Call the Negative Alternates (maintaining Star count) for 5 random Players in your Team's Shadows.</strong></p>
 <p>A Negative Alternate is a player reroll (maintaining Combined Star value), while adding the Negative mod which makes
 their eDensity Negative. See below for our current shadows, the target is random.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -33002,20 +32857,16 @@ their eDensity Negative. See below for our current shadows, the target is random
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Couldn't-Hurt">Couldn't Hurt<a class="anchor-link" href="#Couldn't-Hurt"> </a></h3><p><strong>Call the Negative Alternates (maintaining Star count) for the 2 worst Players on your Team's Active Roster.</strong></p>
 <p>A Negative Alternate is a player reroll (maintaining Combined Star value), while adding the Negative mod which makes
 their eDensity Negative. See below for the 2 worst players on the team.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -33082,28 +32933,22 @@ their eDensity Negative. See below for the 2 worst players on the team.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Green-Light">Green Light<a class="anchor-link" href="#Green-Light"> </a></h3><p><strong>One Player on all Teams in your Division will play 50% better in Polarity Plus Weather and 50% worse in Polarity Minus Weather.</strong></p>
 <p>~Random~. Playing worse in Polarity Minus is good if it hits a batter, because you dont want to score when it would result in unruns.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Sponge-Blob">Sponge Blob<a class="anchor-link" href="#Sponge-Blob"> </a></h3><p><strong>Give all Players with Ego on your Team's Roster the Sponge modification.</strong></p>
 <p>See below for list of players with any level of Ego. The effect of the Sponge modification is unknown.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -33162,8 +33007,7 @@ their eDensity Negative. See below for the 2 worst players on the team.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Heavy-Handed-&amp;-Light-Handed">Heavy-Handed &amp; Light-Handed<a class="anchor-link" href="#Heavy-Handed-&amp;-Light-Handed"> </a></h3><p><strong>Your Team becomes Heavy-Handed, making all Items held by Players on the Team positively eDense.</strong></p>
 <p><strong>Your Team becomes Light-Handed, making all Items held by Players on the Team negatively eDense.</strong></p>
@@ -33171,9 +33015,7 @@ their eDensity Negative. See below for the 2 worst players on the team.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Strange-Attractor">Strange Attractor<a class="anchor-link" href="#Strange-Attractor"> </a></h3><p><strong>Recruit a Random Player in the League with the Attractor Modification to your Team.</strong></p>
 <p>See below for list of all active players with Attractor. This will not remove an existing player from our team.</p>
@@ -33183,12 +33025,9 @@ their eDensity Negative. See below for the 2 worst players on the team.</p>
 </ul>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -33303,20 +33142,16 @@ their eDensity Negative. See below for the 2 worst players on the team.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Fringe-Benefit">Fringe Benefit<a class="anchor-link" href="#Fringe-Benefit"> </a></h3><p><strong>Recruit a Random Player with the Perk Modification to your Team.</strong></p>
 <p>See below for list of all active players with Perk. This will not remove an existing player from our team. Note that
 Perk adds to eDensity.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -33467,19 +33302,15 @@ Perk adds to eDensity.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Pitch-Runner">Pitch Runner<a class="anchor-link" href="#Pitch-Runner"> </a></h3><p><strong>Move the Best Baserunner in your Team's Rotation to a random spot in your Team's Lineup.</strong></p>
 <p>This would move the following player to our lineup.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -33808,19 +33639,15 @@ Perk adds to eDensity.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Slowpoke">Slowpoke<a class="anchor-link" href="#Slowpoke"> </a></h3><p><strong>Move the Worst Baserunner in your Team's Lineup to a random spot in your Team's Rotation.</strong></p>
 <p>This would move the following player to our rotation.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -33985,19 +33812,15 @@ Perk adds to eDensity.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Stuck-in-the-Freezer">Stuck in the Freezer<a class="anchor-link" href="#Stuck-in-the-Freezer"> </a></h3><p><strong>A Random Player in your Team's Rotation will have their Coldness Boosted by 40%.</strong></p>
 <p>Coldness is currently unknown, though potentially prevents stolen bases. See below for change in player stars and stlats.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34141,19 +33964,15 @@ Perk adds to eDensity.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Shot-Caller">Shot Caller<a class="anchor-link" href="#Shot-Caller"> </a></h3><p><strong>A Random Player in your Team's Lineup will be 40% better at landing Home Runs in a Big Bucket.</strong></p>
 <p>See below for list of teams that currently have Big Buckets in their Stadium.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34248,20 +34067,16 @@ Perk adds to eDensity.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Cool-Off">Cool Off<a class="anchor-link" href="#Cool-Off"> </a></h3><p><strong>All Players in your Team's Rotation will gain 20% Coldness but lose 5% Ruthlessness.</strong></p>
 <p>Coldness is unknown, and Ruthlessness is more correlated to increased strikes and fewer balls thrown. See below for
 change in team stats.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34340,20 +34155,16 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Global-Guts">Global Guts<a class="anchor-link" href="#Global-Guts"> </a></h3><p><strong>All Players in your Team's Lineup will gain 20% Moxie but lose 5% Thwackability.</strong></p>
 <p>Moxie correlates to better plate discipline (more walks), and thwackability correlates to better contact. See below for
 change in team stats.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34583,19 +34394,15 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Backup-or-Down">Backup or Down<a class="anchor-link" href="#Backup-or-Down"> </a></h3><p><strong>Flip the eDensity of the most eDense Player in your Team's Shadows.</strong></p>
 <p>This would make the most dense shadows player have the Negative modification, making their eDensity negative.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34633,19 +34440,15 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Complete-180">Complete 180<a class="anchor-link" href="#Complete-180"> </a></h3><p><strong>Flip the eDensity of the most eDense Player in your Team's Rotation.</strong></p>
 <p>This would make the most dense pitcher have the Negative modification, making their eDensity negative.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34683,19 +34486,15 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Head-over-Tails">Head over Tails<a class="anchor-link" href="#Head-over-Tails"> </a></h3><p><strong>Flip the eDensity of the most eDense Player in your Team's Lineup.</strong></p>
 <p>This would make the most dense batter have the Negative modification, making their eDensity negative.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34733,19 +34532,15 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Low-Five">Low Five<a class="anchor-link" href="#Low-Five"> </a></h3><p><strong>Flip the eDensity of the five least eDense Players on your Team's Roster.</strong></p>
 <p>See below for list of players and their eDensity impact.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34826,28 +34621,22 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Slow-Clap">Slow Clap<a class="anchor-link" href="#Slow-Clap"> </a></h3><p><strong>The first Player in your Team's Lineup will gain the Slow Build mod.</strong></p>
 <p>Slow Build makes players bat 1% better for each At Bat in a game, resetting at the beginning of each game.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="States-of-Play">States of Play<a class="anchor-link" href="#States-of-Play"> </a></h3><p><strong>Give all Elsewhere or Scattered Players on your Team's Roster the Undefined mod.</strong></p>
 <p>Undefined makes a player play 50-100% better while Scattered. See below for list of Elsewhere of Scattered players.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34893,19 +34682,15 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Solo-Stroll">Solo Stroll<a class="anchor-link" href="#Solo-Stroll"> </a></h3><p><strong>The worst Batter in your Team's Lineup will draw a walk on 3 balls instead of 4.</strong></p>
 <p>This would add permanent Walk in the Park to our worst batter, listed below.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -34964,8 +34749,7 @@ change in team stats.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Targeted-Evolution">Targeted Evolution<a class="anchor-link" href="#Targeted-Evolution"> </a></h3><p><strong>A random pitcher and a random hitter on your Team will Advance.</strong></p>
 <p>An Advanced player will gain one evolution level, increasing their minimum star level by one for all stats and raising
@@ -34973,27 +34757,21 @@ their stars to the minimum if they are lower than that. It also allows players t
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Gifts">Gifts<a class="anchor-link" href="#Gifts"> </a></h2><p>Gifts are awarded to teams based on contributions from other teams. Each team creates a Wishlist of items that they
 would like, and the top items on the wishlist are awarded during the Latesiesta.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="eDense-Infusion">eDense Infusion<a class="anchor-link" href="#eDense-Infusion"> </a></h3><p><strong>Ratings Boost! Add the eDense Element to 20% of the non-eDense Items held by Players on your Team.</strong></p>
 <p>It is unknown what item eDensity is or how it effects the sim.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Collector's-Editions">Collector's Editions<a class="anchor-link" href="#Collector's-Editions"> </a></h3><p>Collectors Editions move a Legendary player to the team. Replicas act as copies of that player and will turn to Dust
 after elections.</p>
@@ -35005,12 +34783,9 @@ after elections.</p>
 </ul>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -36097,8 +35872,7 @@ after elections.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Solo-Editions">Solo Editions<a class="anchor-link" href="#Solo-Editions"> </a></h3><p>These gifts provide a random player with a benefit for the lateseason and postseason.</p>
 <ul>
@@ -36108,9 +35882,7 @@ after elections.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Team-Editions">Team Editions<a class="anchor-link" href="#Team-Editions"> </a></h3><p>These gifts provide a team-wide benefit for the lateseason and postseason.</p>
 <ul>
@@ -36123,9 +35895,7 @@ after elections.</p>
 
 </div>
 </div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Handcrafted-Drops">Handcrafted Drops<a class="anchor-link" href="#Handcrafted-Drops"> </a></h3><p>These will provide Items which have additional stat increases and random special effects.</p>
 <table>
@@ -36164,12 +35934,9 @@ convert earned Home Runs to UnRuns.</p>
 <p><strong>Bat</strong></p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -36228,18 +35995,14 @@ convert earned Home Runs to UnRuns.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Cap, Quill</strong></p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -36285,18 +36048,14 @@ convert earned Home Runs to UnRuns.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Phone</strong></p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -36355,20 +36114,16 @@ convert earned Home Runs to UnRuns.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Soul-Patches">Soul Patches<a class="anchor-link" href="#Soul-Patches"> </a></h3><p><strong>Back by Popular Demand! Give 1 Soul to your least Soul Full player. Repeat 10 times.</strong></p>
 <p>See below for final Soul totals. Low soul is dangerous, as Players will become Redacted if their soul hits 0 and
 Consumers will drain 1 soul per chomp.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -36471,20 +36226,16 @@ Consumers will drain 1 soul per chomp.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Bargain-Bin">Bargain Bin<a class="anchor-link" href="#Bargain-Bin"> </a></h3><p><strong>Give a random Player on your Team the Best Item from the Bargain Bin!</strong></p>
 <p>The Bargain Bin will retrieve one random previously dropped item. Below is a list of all non-base items not currently
 held by players.</p>
 
 </div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
@@ -37187,8 +36938,7 @@ held by players.</p>
 </div>
 
 </div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <h2 id="Appendix">Appendix<a class="anchor-link" href="#Appendix"> </a></h2><ul>
@@ -37197,7 +36947,6 @@ held by players.</p>
 <li><a href="http://yoori.space/hloroscopes/">Historical Player Graphs</a></li>
 </ul>
 
-</div>
 </div>
 </div>
 </div>
