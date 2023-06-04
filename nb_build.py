@@ -105,7 +105,6 @@ for config_info in configs:
 
 
 # Create the Index.html file
-output_files.sort(key=lambda x: x[1])
 HTML_start = """<!DOCTYPE html>
 <html>
 <head><title>Blaseball Notebooks</title></head>
@@ -119,13 +118,27 @@ HTML_end = """</div>
 </body>
 </html>"""
 
-# Generate redirect to Election Results Google Sheet
-with open(os.path.join(build_dir, 'election_results.html'), 'w', encoding='utf8') as fp:
-    fp.write("<head><meta http-equiv=\"refresh\" content=\"0;url=https://docs.google.com/spreadsheets/d/1qWaFoVoVm5CrJJn34DPkIc0R2N785wdGKlWeNhTYvNk\"></head><body>Redirecting</body>")
-output_files.append((Path("election_results.html"), "Election Vote Totals"))
-print("Wrote election_results.html")
+# External Links
+ext_links = {
+    "election_results.html": ("Election Vote Totals", "https://docs.google.com/spreadsheets/d/1v_1e2cxKoHvVejxXk4xHHC-YpPfKJXww15WIZ6nU7RU"),
+    "election_notes/s5.html": ("Season 5 Election Notes", "https://docs.google.com/document/d/15tBhhZSpObdA3Sc88A8gCGr7Nb4ucQ7f0L55aqB4WYA"),
+    "election_notes/s6.html": ("Season 6 Election Notes", "https://docs.google.com/document/d/1-1dCc3HC1uOMnbXINC4FQKKbhkmPA32QD_SWXx1a-fE"),
+    "election_notes/s7.html": ("Season 7 Election Notes", "https://docs.google.com/document/d/1mKHhAlQJ0LBKrpSZb6kuI0EJz3krdlufafedv7Cz1ik"),
+    "election_notes/s8.html": ("Season 8 Election Notes", "https://docs.google.com/document/d/1SHbZtmmoxAW98X06ulHcP1x7Xt8SCjd_fsGT_Qtkcnw"),
+    "election_notes/s9.html": ("Season 9 Election Notes", "https://docs.google.com/document/d/1F8VwYuNFrQJ1sZo4BSnhXinB3zKALh2Db4lZ6hNNBPA"),
+    "election_notes/s10.html": ("Season 10 Election Notes", "https://docs.google.com/document/d/1mRVYagWvagjWoawmF0z5U5GKmPF3vEP9_DPiASgaxUU"),
+    "election_notes/s11.html": ("Season 11 Election Notes", "https://docs.google.com/document/d/143BJ0zrvm10-1YvrMnF7ZlfkdRbTQPIglqYycEMFiTI"),
+}
 
-links = f"<a href={github_pages_url_base}/archives>Archives</a></br>\n"
+for out, tup in ext_links.items():
+    title, link = tup
+    with open(os.path.join(build_dir, out), 'w', encoding='utf8') as fp:
+        fp.write(f"<head><meta http-equiv=\"refresh\" content=\"0;url={link}\"></head><body>Redirecting</body>")
+    output_files.append((Path(out), title))
+    print(f"Wrote {out}")
+
+output_files.sort(key=lambda x: x[1])
+links = ""
 for file, title in output_files:
     file = github_pages_url_base + file.as_posix()
     links += f"<a href={file}>{title}</a></br>\n"

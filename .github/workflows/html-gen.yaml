@@ -27,9 +27,6 @@ jobs:
     - name: Build
       run: python nb_build.py
 
-    - name: Add Static Files
-      run: cp -r static/* docs/
-
     - name: Upload pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
